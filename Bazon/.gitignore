@@ -1,0 +1,10 @@
+# Секреты и рабочие данные не попадают в git
+*.env
+.env
+bz_token.json
+state/
+__pycache__/
+*.pyc
+raw_*.json
+orders_ext.json
+doc_v1.json

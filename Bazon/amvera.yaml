@@ -1,0 +1,13 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: "3.11"
+
+build:
+  requirementsPath: requirements.txt
+  useCache: false
+
+run:
+  command: python3 main.py
+  persistenceMount: /data
